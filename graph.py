@@ -24,5 +24,10 @@ plt.plot(x, y1, label="f(x) = x^2")
 plt.plot(x, y2, label="f1(x) = x * sin(2x)")
 plt.plot(x, y3, label="f2(x) = arctan(x)")
 
+plt.title("Plot of x^2, arctan(x), and x * sin(2x)")
+plt.xlabel("x")
+plt.ylabel("f(x), f1(x), f2(x)")
+plt.legend()
+
 plt.grid(True)
 plt.show()
