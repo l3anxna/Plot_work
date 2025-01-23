@@ -20,9 +20,9 @@ y1 = f(x)
 y2 = f1(x)
 y3 = f2(x)
 
-plt.plot(x, y1, label="f(x) = x^2", color="green")
-plt.plot(x, y2, label="f1(x) = x * sin(2x)", color="red")
-plt.plot(x, y3, label="f2(x) = arctan(x)", color="cyan")
+plt.plot(x, y1, label="f(x) = x^2", color="green", marker="o")
+plt.plot(x, y2, label="f1(x) = x * sin(2x)", color="red", linestyle="--", marker="x")
+plt.plot(x, y3, label="f2(x) = arctan(x)", color="cyan", linestyle=":", marker="s")
 
 plt.title("Plot of x^2, arctan(x), and x * sin(2x)")
 plt.xlabel("x")
